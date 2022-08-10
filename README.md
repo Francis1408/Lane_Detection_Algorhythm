@@ -31,6 +31,7 @@ This program was the final project of my Algorithm and Data Structures I subject
   *max = pos;  
 }
   ```
+  ![alt text](https://github.com/Francis1408/Lane_Detection_Algorhythm/blob/main/img/LanePattern.png)
 
   Every lane must have the following pattern inside the array:
 
@@ -69,12 +70,15 @@ This program was the final project of my Algorithm and Data Structures I subject
 }
 
   ```
+  ![alt text](https://github.com/Francis1408/Lane_Detection_Algorhythm/blob/main/img/Midpoint.png)
 
   If the array contains N pixels, from 0 to N-1, the midpoint will be the (p+q)/2 element, which p and q are the Lane's initial and final position. 
 
   #### Lane's direction:
 
   In order to find the lane's direction, whether it is to the right, to the left or straight ahead, the algorithm divides the lane in horizontal lines and finds theirs midpoints. 
+
+  ![alt text](https://github.com/Francis1408/Lane_Detection_Algorhythm/blob/main/img/LaneDirection.png)
 
 
   The following Algorithm will receive the midpoints of every line and, thus, analyses the lane's behaviour:
